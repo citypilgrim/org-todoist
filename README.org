@@ -1,0 +1,17 @@
+#+title: org-todoist
+
+A ~todoist~ integration with ~org-agenda~.
+
+* Motivation
+There are many existing emacs plugins for todoist. So why write a new one?
+
+Packages like [[https://github.com/abrochard/emacs-todoist][emacs-todoist]] require interaction with a [[https://github.com/magit/transient][transient]] buffer in order to interact with a task, and has "Today" overlapping with project tasks, which would show repeated entries on ~org-agenda~.
+
+While packages like [[https://github.com/ttakamura/org-todoist][org-todoist]] which parses org files utilise third party dependencies like ruby or python.
+
+I'm seeking to build a package with only elisp dependencies, that would synchronize tasks based on file saving operations.
+
+* Development
+** TODO filter out repeated tasks from inbox during pull
+** TODO support section crud
+** TODO support project crud
